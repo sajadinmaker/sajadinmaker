@@ -35,3 +35,9 @@ deliveries and DLQ replay.
 - [Portfolio](https://sajadinmaker.github.io/)
 - [LinkedIn](https://linkedin.com/in/abdullasajad)
 - [Email](mailto:abdullasajad01@gmail.com)
+
+---
+
+## Maintenance
+
+Last maintained: 2026-09-30 – minor docs touch.
