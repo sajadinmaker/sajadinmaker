@@ -26,9 +26,9 @@ durability, and shipping a product end to end.
 
 ## Currently building
 
-Extending HookFlow into a fuller backend: version-controlled schema migrations,
-encrypted webhook secrets at rest, tenant isolation, and a Next.js dashboard for
-deliveries and DLQ replay.
+HookFlow core is done (Alembic migrations, encrypted secrets at rest, tenant
+isolation, Next.js operator dashboard). Next: per-tenant API quotas, key
+expiry/rotation, concurrent-load benchmarks, and group-commit on ingest.
 
 ## Links
 
@@ -40,4 +40,4 @@ deliveries and DLQ replay.
 
 ## Maintenance
 
-Last maintained: 2026-09-30 – minor docs touch.
+Last maintained: 2026-10-05 – freshen-up: HookFlow status synced, no BlitzKode refs.
