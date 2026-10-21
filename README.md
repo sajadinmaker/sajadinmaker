@@ -18,11 +18,10 @@ I build backend systems first, then layer AI and a usable interface on top.
 | ------- | ---------- |
 | [HookFlow](https://github.com/sajadinmaker/hookflow) | Webhook/event delivery infrastructure. Persist-first ingest, HMAC signing, retries with backoff, idempotency keys, DLQ and replay, health/readiness and metrics. Python, FastAPI, PostgreSQL, Redis. |
 | [Lexora](https://github.com/sajadinmaker/lexora-ai) | Asynchronous document processing and retrieval. Celery ingestion pipeline, per-user vector isolation, retrieval with citations, SSE streaming. FastAPI, PostgreSQL, Redis, FAISS. |
-| [neuDB](https://github.com/sajadinmaker/neudb) | Embedded Python storage engine. Crash-atomic writes, concurrent access, corruption recovery, semantic search, optional AI memory layer. Published on [PyPI](https://pypi.org/project/neudb/). |
 | [EsenceLab](https://github.com/sajadinmaker/esencelab) | AI hiring product. Next.js frontend, Express API with JWT auth and RBAC, FastAPI service for resume parsing and job matching, PostgreSQL/Supabase. |
 
-Each one is a different problem: delivery correctness, retrieval quality, storage
-durability, and shipping a product end to end.
+Each one is a different problem: delivery correctness, retrieval quality, and
+shipping a product end to end.
 
 ## Currently building
 
