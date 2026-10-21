@@ -16,18 +16,11 @@ I build backend systems first, then layer AI and a usable interface on top.
 
 | Project | What it is |
 | ------- | ---------- |
-| [HookFlow](https://github.com/sajadinmaker/hookflow) | Webhook/event delivery infrastructure. Persist-first ingest, HMAC signing, retries with backoff, idempotency keys, DLQ and replay, health/readiness and metrics. Python, FastAPI, PostgreSQL, Redis. |
 | [Lexora](https://github.com/sajadinmaker/lexora-ai) | Asynchronous document processing and retrieval. Celery ingestion pipeline, per-user vector isolation, retrieval with citations, SSE streaming. FastAPI, PostgreSQL, Redis, FAISS. |
 | [EsenceLab](https://github.com/sajadinmaker/esencelab) | AI hiring product. Next.js frontend, Express API with JWT auth and RBAC, FastAPI service for resume parsing and job matching, PostgreSQL/Supabase. |
 
-Each one is a different problem: delivery correctness, retrieval quality, and
-shipping a product end to end.
-
-## Currently building
-
-HookFlow core is done (Alembic migrations, encrypted secrets at rest, tenant
-isolation, Next.js operator dashboard). Next: per-tenant API quotas, key
-expiry/rotation, concurrent-load benchmarks, and group-commit on ingest.
+Each one is a different problem: retrieval quality and shipping
+a product end to end.
 
 ## Links
 
@@ -39,4 +32,4 @@ expiry/rotation, concurrent-load benchmarks, and group-commit on ingest.
 
 ## Maintenance
 
-Last maintained: 2026-10-05 – freshen-up: HookFlow status synced, no BlitzKode refs.
+Last maintained: 2026-10-21 – featured work now leads: Lexora, EsenceLab, vpnbox.
