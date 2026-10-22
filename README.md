@@ -20,9 +20,10 @@ I build backend systems first, then layer AI and a usable interface on top. I al
 | ------- | ---------- |
 | [Lexora](https://github.com/sajadinmaker/lexora-ai) | Asynchronous document processing and retrieval. Celery ingestion pipeline, per-user vector isolation, retrieval with citations, SSE streaming. FastAPI, PostgreSQL, Redis, FAISS. |
 | [EsenceLab](https://github.com/sajadinmaker/esencelab) | AI hiring product. Next.js frontend, Express API with JWT auth and RBAC, FastAPI service for resume parsing and job matching, PostgreSQL/Supabase. |
+| [vpnbox](https://github.com/sajadinmaker/vpnbox) | Free public VPN for Linux. Fetches the live VPN Gate server list, ranks relays by reachability, filters by country or city, tunnels through OpenVPN. One stdlib-only Python file. |
 
-Each one is a different problem: retrieval quality and shipping
-a product end to end.
+Each one is a different problem: retrieval quality, shipping a
+product end to end, and a tool that has to work on other machines.
 
 ## Links
 
@@ -34,4 +35,4 @@ a product end to end.
 
 ## Maintenance
 
-Last maintained: 2026-10-23 – security identity added, featured work leads: Lexora, EsenceLab, vpnbox.
+Last maintained: 2026-10-23 – security identity and vpnbox row added; featured work: Lexora, EsenceLab, vpnbox.
