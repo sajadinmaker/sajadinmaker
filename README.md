@@ -1,16 +1,18 @@
 # Sajad
 
-**Software Engineer · Backend Systems · AI Products**
+**Software Engineer · Backend Systems · AI Products · Security**
 
-I build backend systems first, then layer AI and a usable interface on top.
+I build backend systems first, then layer AI and a usable interface on top. I also explore security and build small tools around it.
 
-**Core** — Python · FastAPI · PostgreSQL · Redis · Celery · SQLAlchemy · Pydantic · Docker
+**Core**: Python · FastAPI · PostgreSQL · Redis · Celery · SQLAlchemy · Pydantic · Docker
 
-**AI** — RAG · embeddings · LangChain · FAISS · OpenAI · sentence-transformers
+**AI**: RAG · embeddings · LangChain · FAISS · OpenAI · sentence-transformers
 
-**Product** — TypeScript · Next.js · React · Express · Tailwind
+**Product**: TypeScript · Next.js · React · Express · Tailwind
 
-**Practice** — Git · pytest · Linux · GitHub Actions · async Python · JWT/RBAC · Prometheus
+**Practice**: Git · pytest · Linux · GitHub Actions · async Python · JWT/RBAC · Prometheus
+
+**Security**: hacking and defense exploration · small tools
 
 ## Selected work
 
@@ -32,4 +34,4 @@ a product end to end.
 
 ## Maintenance
 
-Last maintained: 2026-10-21 – featured work now leads: Lexora, EsenceLab, vpnbox.
+Last maintained: 2026-10-23 – security identity added, featured work leads: Lexora, EsenceLab, vpnbox.
