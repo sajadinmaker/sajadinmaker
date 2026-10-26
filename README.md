@@ -22,7 +22,7 @@ I build backend systems first, then layer AI and a usable interface on top. I al
 | [EsenceLab](https://github.com/sajadinmaker/esencelab) | AI hiring product. Next.js frontend, Express API with JWT auth and RBAC, FastAPI service for resume parsing and job matching, PostgreSQL/Supabase. |
 | [vpnbox](https://github.com/sajadinmaker/vpnbox) | Free public VPN for Linux. Fetches the live VPN Gate server list, ranks relays by reachability, filters by country or city, tunnels through OpenVPN. One stdlib-only Python file. |
 | [HookFlow](https://github.com/sajadinmaker/hookflow) | Reliable webhook and event delivery. Accept first, persist, then deliver with atomic claims, leases, and dead-letter recovery. Zero double delivery. FastAPI, PostgreSQL, Redis. |
-| [neuDB](https://github.com/sajadinmaker/neudb) | Embedded Python database engine. Crash-atomic JSON-file persistence, human-readable files, honest benchmarks, published on PyPI. |
+| [neuDB](https://github.com/sajadinmaker/neudb) | Embedded Python database engine. Crash-atomic JSON-file persistence, human-readable files, honest benchmarks. |
 
 Each one is a different problem: retrieval quality, shipping a
 product end to end, a tool that has to work on other machines, delivery that survives failure, and storage that stays honest.
@@ -37,4 +37,4 @@ product end to end, a tool that has to work on other machines, delivery that sur
 
 ## Maintenance
 
-Last maintained: 2026-10-23 – hookflow and neudb rows restored; featured work: Lexora, EsenceLab, vpnbox, HookFlow, neuDB.
+Last maintained: 2026-10-26 – dead PyPI reference removed from neuDB row; CI audit gates fixed on esencelab; featured work: Lexora, EsenceLab, vpnbox, HookFlow, neuDB.
